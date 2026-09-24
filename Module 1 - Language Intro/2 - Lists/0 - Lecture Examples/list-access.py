@@ -3,9 +3,11 @@ new_list = [2, 3, 4, 5, 6]
 
 # what is the first element?
 head = new_list[0]
+print("The head (first element) of the list is:", head)
 
 # what is the last element?
 tail = new_list[-1]
+print("The tail (last element) of the list is:", tail)
 
 # inefficient, old-style to access last element
 tail = new_list[len(new_list)-1]

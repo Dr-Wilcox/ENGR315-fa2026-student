@@ -12,7 +12,7 @@ while a != 5:
 # but remains the same in the actual value of a
 
 # first, we're going to write the condition of a while loop
-# this loop is going to multiply the variable x by 2 3 times
+# this loop is going to multiply the variable b by 2, 3 times
 b = 5
 x = 0
 while x != 0:

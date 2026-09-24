@@ -22,10 +22,11 @@ empty_list.append(4)
 print(empty_list)
 
 # Add the elements of another list to my list?
-small_list = [5, 6, 7, 8, 9]
-empty_list.append(small_list)
+list_A = [1, 2, 3, 4]
+list_B = [5, 6, 7, 8, 9]
+list_A.append(list_B)
 
 # print list contents and length
-print(empty_list)
-print('Length of List is: '+str(len(empty_list)))
+print(list_A)
+print('Length of List is: '+str(len(list_A)))
 

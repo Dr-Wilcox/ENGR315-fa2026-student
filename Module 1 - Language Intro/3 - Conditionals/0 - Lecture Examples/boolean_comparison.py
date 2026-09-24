@@ -1,6 +1,8 @@
 # some random variable to compare
 t = 30
 
+#print(type(t))
+
 print("Using t = "+str(t))
 
 # perform boolean equality comparison
