@@ -18,7 +18,9 @@ added_squares = a ** 2 + b ** 2
 # sum the resulting array to a single value
 num = sum(added_squares)
 
-########################################################
+
+### Vector operations ###
+
 # generate a random array. Max value is 10, length is 3
 c = np.random.randint(10, size=3)
 print('First vector is:',c)
@@ -35,8 +37,9 @@ print('Cross product is: ', cross_product)
 dot_product = np.dot(c,d)
 print('Dot product is: ', dot_product)
 
-########################################################
-# matrix multiplication
+
+### Matrix multiplication ###
+
 new_array1 = np.array([[1,2],[3,4]])
 new_array2 = np.array([[0,1],[2,2]])
 
